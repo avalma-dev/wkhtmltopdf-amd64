@@ -1,0 +1,18 @@
+{
+    "name": "avalma-dev/wkhtmltopdf-amd64",
+    "description": "Convert html to pdf using webkit (qtwebkit). Dynamically linked linux binary for amd64 systems.",
+    "keywords": ["pdf", "thumbnail", "snapshot", "wkhtmltopdf", "convert", "binary"],
+    "license": "LGPL-3.0-only",
+    "homepage": "http://wkhtmltopdf.org/",
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/wkhtmltopdf"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "avalma-dev\\wkhtmltopdf\\": ""
+        }
+    }
+}
